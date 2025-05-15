@@ -1,0 +1,150 @@
+.boxTitleAboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: #27548a;
+  padding: 20px;
+  border-radius: 10px;
+}
+.boxTextAboutMeSmallScreen {
+  display: none;
+}
+
+.boxAboutMe {
+  display: flex;
+  justify-content: center;
+}
+
+.boxTextAboutMe {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.imgAboutMe {
+  width: 800px;
+  height: 600px;
+  margin-top: 30px;
+  margin-right: 60px;
+  border-radius: 10px;
+}
+
+.textAboutMe {
+  width: 600px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.boxAboutMeLower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #fdf8f8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1150px) {
+  .textAboutMe {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .boxTextAboutMe {
+    margin-left: 0;
+  }
+  .imgAboutMe {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 950px) {
+  .boxAboutMe {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgAboutMe {
+    margin-right: 0;
+    width: 600px;
+  }
+  .textAboutMe {
+    width: 600px;
+  }
+  .boxTextAboutMe {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .questionTransf {
+    width: 400px;
+    text-align: center;
+  }
+  .textQuestion {
+    width: 400px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 630px) {
+  .boxTitleAboutMe {
+    margin-bottom: 0;
+  }
+  .imgAboutMe {
+    width: 400px;
+  }
+  .textAboutMe {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .titleAboutMe {
+    font-size: 25px;
+  }
+  .textTitleAboutMe {
+    font-size: 15px;
+    width: 250px;
+    text-align: center;
+  }
+  .titleMyPath {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .textAboutMe {
+    font-size: 15px;
+    width: 350px;
+  }
+  .imgAboutMe {
+    width: 350px;
+    height: 350px;
+  }
+  .questionTransf {
+    width: 300px;
+    font-size: 15px;
+  }
+  .textQuestion {
+    width: 280px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .imgAboutMe {
+    width: 315px;
+    height: 315px;
+  }
+  .titleMyPath {
+    text-align: center;
+  }
+  .textAboutMe {
+    width: 315px;
+    text-align: center;
+  }
+}
