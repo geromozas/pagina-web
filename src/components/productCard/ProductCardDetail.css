@@ -18,7 +18,8 @@
 
 .textDetailDescription {
   margin-top: 20px;
-  columns: 2;
+  /* columns: 2; */
+  width: 400px;
   column-gap: 2rem;
 }
 
