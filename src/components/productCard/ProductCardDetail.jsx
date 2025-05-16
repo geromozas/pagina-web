@@ -23,13 +23,15 @@ const ProductCardDetail = ({ title, description, unit_price, image }) => {
           </p>
           <h3 className="cardDetailPrice">${unit_price}</h3>
           <div className="boxButtonsDetail">
-            <Button
-              size={isLargeScreen ? "large" : "small"}
-              style={{ marginRight: 20, marginBottom: 0 }}
-              variant="contained"
-            >
-              Consultar
-            </Button>
+            <a href="https://wa.me/5493416041873?text=Hola%2C%20te%20contacto%20desde%20tu%20web...">
+              <Button
+                size={isLargeScreen ? "large" : "small"}
+                style={{ marginRight: 20, marginBottom: 0 }}
+                variant="contained"
+              >
+                Consultar
+              </Button>
+            </a>
           </div>
         </div>
       </div>
